@@ -1,0 +1,19 @@
+[global]
+  checkNewVersion = false
+  sendAnonymousUsage = false
+
+[accessLog]
+
+[log]
+  level = "INFO"
+
+[ping]
+
+[api]
+
+[retry]
+
+[docker]
+endpoint = "unix:///var/run/docker.sock"
+watch = true
+exposedByDefault = false
